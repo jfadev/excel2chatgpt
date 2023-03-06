@@ -1,0 +1,26 @@
+{
+  "name": "excel2chatgpt",
+  "version": "1.0.1",
+  "description": "Fill a column of an EXCEL file using another column as a ChatGPT prompt.",
+  "main": "excel2chatgpt.js",
+  "type": "module",
+  "repository": "https://jordifernandes.com/excel2chatgpt/",
+  "author": "Jordi Fernandes Alves <jfadev@gmail.com>",
+  "license" : "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "nodejs",
+    "chatgpt",
+    "excel",
+    "ai",
+    "gpt"
+  ],
+  "scripts": {
+    "start": "node ./excel2chatgpt.js"
+  },
+  "dependencies": {
+    "chatgpt": "^3.3.3",
+    "dotenv": "^16.0.3",
+    "exceljs": "^4.3.0",
+    "puppeteer": "^19.4.1"
+  }
+}
